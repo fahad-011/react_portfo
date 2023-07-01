@@ -5,3 +5,31 @@
 body{
   background-color: #9F44D3;
 }
+
+.flex {
+  flex-wrap: wrap; 
+}
+
+@media screen and (max-width: 768px) {
+  
+  .f1 {
+    font-size: 1.5rem; 
+  }
+
+  .f2 {
+    font-size: 1.5rem; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+ 
+  .f1 {
+    font-size: 1.5rem; 
+  }
+
+  .f2 {
+    font-size: 1.5rem; 
+  }
+}
+
+
