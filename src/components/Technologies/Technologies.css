@@ -1,3 +1,5 @@
+/* Technologies.css */
+
 .technologies-section {
   padding: 10px 0;
   background-color: #f6f6f6;
@@ -53,6 +55,27 @@
 }
 
 .logos img {
-  width: 50px; /* Adjust the width as needed */
-  height: 50px; /* Adjust the height as needed */
+  width: 50px; 
+  height: 50px; 
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 1150px) {
+  .technologies-grid {
+    grid-template-columns: 1fr; 
+    margin: 0 2rem; 
+  }
+
+  .logos .field {
+    margin: 0; 
+  }
+
+  .field {
+    margin-bottom: 2rem; 
+  }
+
+  .logos img {
+    width: 40px; 
+    height: 40px;
+  }
 }
