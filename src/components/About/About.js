@@ -16,7 +16,7 @@ const About = () => {
   });
 
   return (
-    <section id="about" className="bg-white">
+    <section id="about" className="min-h-screen bg-white flex justify-center items-center">
       <div className="container mx-auto px-4 py-8">
         <animated.div ref={ref} style={animation}>
           <div className="text-center capitalize text-xl font-semibold mt-2">

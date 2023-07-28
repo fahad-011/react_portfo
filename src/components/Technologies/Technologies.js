@@ -1,6 +1,4 @@
 import React from "react";
-import "tachyons";
-import './Technologies.css';
 import Bootstrap from './Logo/bootstrap.svg';
 import C from './Logo/c.svg';
 import Css from './Logo/css.svg';
@@ -26,7 +24,7 @@ const Technologies = () => {
     threshold: 0.1,
   });
 
-  const [frontendRef, frontendInView] = useInView({
+  const [frontendRef] = useInView({
     triggerOnce: true,
     threshold: 0.1,
   });
@@ -36,7 +34,7 @@ const Technologies = () => {
     threshold: 0.1,
   });
 
-  const [toolsRef, toolsInView] = useInView({
+  const [toolsRef] = useInView({
     triggerOnce: true,
     threshold: 0.1,
   });

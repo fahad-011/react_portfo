@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import "./Home.css";
-import "tachyons";
 import { FaLinkedin, FaGithub, FaFilePdf, FaEnvelope, FaArrowDown } from "react-icons/fa";
 import ParticlesBg from "particles-bg";
 import { Link } from "react-scroll";
@@ -23,8 +21,8 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="flex justify-center items-center min-h-screen">
-      <ParticlesBg num={numParticles} type="cobweb" color="#ffffff" bg={true} />
+    <div className="min-h-screen flex justify-center items-center">
+      <ParticlesBg num={numParticles} type="lines" color="#000000" bg={true} />
       <div className="flex flex-col items-center mx-4 md:mx-8 lg:mx-16"> {/* Added mx classes for margin */}
       <h1 className="text-center capitalize text-2xl md:text-3xl lg:text-4xl font-medium text-white my-3">Mohammad Fahad Rahman</h1>
         <h2 className="text-center capitalize text-2xl md:text-3xl lg:text-4xl font-semibold text-white mt-3">
@@ -40,12 +38,9 @@ const Home = () => {
           <a href="https://drive.google.com/file/d/1ko5IGlUkCSeWof-egxdXErDEkDE6eGYU/view?usp=sharing" className="link dim text-white mr-3">
             <FaFilePdf className="f2 col" />
           </a>
-          <a
-            href={`https://mail.google.com/mail/?view=cm&to=${encodeURIComponent('mdfahadrahman1969@gmail.com')}`}
-            className="link dim text-white"
-          >
-            <FaEnvelope className="f2 col" />
-          </a>
+            <a href="mailto:mdfahadrahman1969@gmail.com" className="link dim text-white">
+          <FaEnvelope className="f2 col" />
+</a>
         </div>
       </div>
       {/* Scroll To Down Button */}
