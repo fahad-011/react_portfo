@@ -76,7 +76,7 @@ const Technologies = () => {
             </div>
           </div>
           <p className="text-base font-normal leading-6 my-8">
-            Java, C, JavaScript, and Python are popular programming languages used for various purposes.
+            My preferred language for web development automation tasks, data analysis, and artificial intelligence.
           </p>
           </animated.div>
         </div>
@@ -101,7 +101,8 @@ const Technologies = () => {
               </div>
             </div>
             <p className="text-base font-normal leading-6 my-8">
-              React, Bootstrap, HTML, and CSS are essential for building engaging user interfaces and web applications.
+              
+              My preferred frameworks for building interactive user interfaces, state management and responsive design.
             </p>
             </animated.div>
           </div>
@@ -126,7 +127,7 @@ const Technologies = () => {
               </div>
             </div>
             <p className="text-base font-normal leading-6 my-8">
-              Node.js, Express.js, PostgreSQL, and MySQL are commonly used for server-side.
+            My preferred stack for server-side operations, handling of backend tasks and database solutions.
             </p>
             </animated.div>
           </div>
@@ -151,7 +152,7 @@ const Technologies = () => {
               </div>
             </div>
             <p className="text-base font-normal leading-6 my-8">
-              Git, GitHub, Visual Studio Code, and Heroku are widely used tools for version control.
+            My preferred tools in my workflow for code editing,  hosting repositories and version control.
             </p>
             </animated.div>
           </div>

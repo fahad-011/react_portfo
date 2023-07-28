@@ -87,7 +87,7 @@ const Project = () => {
               </div>
               <div className="text-center pt-4">
                 <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
-                  onClick={() => window.location.href = "https://example.com"}>
+                  onClick={() => window.location.href = "https://humaridukan.netlify.app/"}>
                   Check it out
                 </button>
               </div>
@@ -137,7 +137,7 @@ const Project = () => {
                 </div>
                 <div className="text-center pt-4">
                   <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded " 
-                    onClick={() => window.location.href = "https://example.com"}>
+                    onClick={() => window.location.href = "https://roc102.github.io/smart-brain-frontend/"}>
                     Check it out
                   </button>
                 </div>
@@ -212,7 +212,7 @@ const Project = () => {
                 </div>
                 <div className="text-center pt-4">
                   <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded" 
-                    onClick={() => window.location.href = "https://example.com"} >
+                    onClick={() => window.location.href = "https://roc102.github.io/Robofriend/"} >
                     Check it out
                   </button>
                 </div>
