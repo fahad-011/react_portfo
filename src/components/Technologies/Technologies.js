@@ -1,12 +1,12 @@
 import React from "react";
 import Bootstrap from './Logo/bootstrap.svg';
 import C from './Logo/c.svg';
-import Css from './Logo/css.svg';
+import Tailwind from './Logo/tailwind.svg';
 import Express from './Logo/express.svg';
 import Git from './Logo/git.svg';
 import Github from './Logo/github.svg';
 import Heroku from './Logo/heroku.svg';
-import Html from'./Logo/html.svg';
+import Redux from './Logo/redux.svg';
 import Java from './Logo/java.svg';
 import Js from './Logo/js.svg';
 import Mysql from './Logo/mysql.svg';
@@ -94,10 +94,10 @@ const Technologies = () => {
             </div>
             <div className="logos flex flex-wrap justify-center gap-5">
               <div className="field w-16 h-16">
-                <img src={Html} alt="HTML" className="w-full h-full object-contain" />
+                <img src={Redux} alt="HTML" className="w-full h-full object-contain" />
               </div>
               <div className="field w-16 h-16">
-                <img src={Css} alt="CSS" className="w-full h-full object-contain" />
+                <img src={Tailwind} alt="CSS" className="w-full h-full object-contain" />
               </div>
             </div>
             <p className="text-base font-normal leading-6 my-8">

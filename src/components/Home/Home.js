@@ -35,7 +35,7 @@ const Home = () => {
           <a href="https://github.com/roc102" className="link dim text-white mr-3">
             <FaGithub className="f2 col" />
           </a>
-          <a href="https://drive.google.com/file/d/1ko5IGlUkCSeWof-egxdXErDEkDE6eGYU/view?usp=sharing" className="link dim text-white mr-3">
+          <a href="https://drive.google.com/file/d/1ekWzWMrqOl5QHcArXMaHxoti7wY-loDS/view?usp=drive_link" className="link dim text-white mr-3">
             <FaFilePdf className="f2 col" />
           </a>
             <a href="mailto:mdfahadrahman1969@gmail.com" className="link dim text-white">
