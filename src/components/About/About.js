@@ -5,8 +5,8 @@ import { useInView } from "react-intersection-observer";
 
 const About = () => {
   const [ref, inView] = useInView({
-    triggerOnce: true, // Animation will only trigger once
-    threshold: 0.1, // Set the threshold for the element's visibility in the viewport
+    triggerOnce: true, 
+    threshold: 0.1, 
   });
 
   const animation = useSpring({

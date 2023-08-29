@@ -23,7 +23,7 @@ const Home = () => {
   return (
     <div className="min-h-screen flex justify-center items-center">
       <ParticlesBg num={numParticles} type="lines" color="#000000" bg={true} />
-      <div className="flex flex-col items-center mx-4 md:mx-8 lg:mx-16"> {/* Added mx classes for margin */}
+      <div className="flex flex-col items-center mx-4 md:mx-8 lg:mx-16"> 
       <h1 className="text-center capitalize text-2xl md:text-3xl lg:text-4xl font-medium text-white my-3">Mohammad Fahad Rahman</h1>
         <h2 className="text-center capitalize text-2xl md:text-3xl lg:text-4xl font-semibold text-white mt-3">
           Programmer | Full Stack Developer | Javascript Developer
@@ -43,11 +43,11 @@ const Home = () => {
 </a>
         </div>
       </div>
-      {/* Scroll To Down Button */}
+      
       <div className="flex flex-col justify-center items-center mt-8 absolute bottom-10">
         <Link
           activeClass="active"
-          to="about" // Add the ID of the section where you want to scroll to
+          to="about" 
           spy={true}
           smooth={true}
           offset={-70}
