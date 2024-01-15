@@ -29,13 +29,13 @@ const Home = () => {
           Programmer | Full Stack Developer | Javascript Developer
         </h2>
         <div className="mt-6 flex items-center">
-          <a href="https://www.linkedin.com/in/mohammad-fahad-rahman-a41a92233/" className="link dim text-white mr-3">
+          <a href="https://www.linkedin.com/in/mohammad-fahad-rahman" className="link dim text-white mr-3">
             <FaLinkedin className="f2 col" />
           </a>
           <a href="https://github.com/roc102" className="link dim text-white mr-3">
             <FaGithub className="f2 col" />
           </a>
-          <a href="https://drive.google.com/file/d/1C1h5BdDVw1Meq5_YKq4OSihcmzRfYTpv/view?usp=sharing" className="link dim text-white mr-3">
+          <a href="https://drive.google.com/file/d/1TAPpquQmmit8c10spg0PIGChGaX3wfyl/view?usp=sharing" className="link dim text-white mr-3">
             <FaFilePdf className="f2 col" />
           </a>
             <a href="mailto:mdfahadrahman1969@gmail.com" className="link dim text-white">
