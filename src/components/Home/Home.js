@@ -1,10 +1,15 @@
 import React, { useEffect, useState } from "react";
-import { FaLinkedin, FaGithub, FaFilePdf, FaEnvelope, FaArrowDown } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaGithub,
+  FaFilePdf,
+  FaEnvelope,
+  FaArrowDown,
+} from "react-icons/fa";
 import ParticlesBg from "particles-bg";
 import { Link } from "react-scroll";
 
 const Home = () => {
-
   const [numParticles, setNumParticles] = useState(85);
 
   useEffect(() => {
@@ -23,31 +28,45 @@ const Home = () => {
   return (
     <div className="min-h-screen flex justify-center items-center">
       <ParticlesBg num={numParticles} type="lines" color="#000000" bg={true} />
-      <div className="flex flex-col items-center mx-4 md:mx-8 lg:mx-16"> 
-      <h1 className="text-center capitalize text-2xl md:text-3xl lg:text-4xl font-medium text-white my-3">Mohammad Fahad Rahman</h1>
+      <div className="flex flex-col items-center mx-4 md:mx-8 lg:mx-16">
+        <h1 className="text-center capitalize text-2xl md:text-3xl lg:text-4xl font-medium text-white my-3">
+          Mohammad Fahad Rahman
+        </h1>
         <h2 className="text-center capitalize text-2xl md:text-3xl lg:text-4xl font-semibold text-white mt-3">
           Programmer | Full Stack Developer | Javascript Developer
         </h2>
         <div className="mt-6 flex items-center">
-          <a href="https://www.linkedin.com/in/mohammad-fahad-rahman" className="link dim text-white mr-3">
+          <a
+            href="https://www.linkedin.com/in/mohammad-fahad-rahman"
+            className="link dim text-white mr-3"
+          >
             <FaLinkedin className="f2 col" />
           </a>
-          <a href="https://github.com/roc102" className="link dim text-white mr-3">
+          <a
+            href="https://github.com/roc102"
+            className="link dim text-white mr-3"
+          >
             <FaGithub className="f2 col" />
           </a>
-          <a href="https://drive.google.com/file/d/1TAPpquQmmit8c10spg0PIGChGaX3wfyl/view?usp=sharing" className="link dim text-white mr-3">
+          <a
+            href="https://drive.google.com/file/d/1vC_hCqI1d1YxvT6tWLVNgagpxYifHlKM/view?usp=sharing"
+            className="link dim text-white mr-3"
+          >
             <FaFilePdf className="f2 col" />
           </a>
-            <a href="mailto:mdfahadrahman1969@gmail.com" className="link dim text-white">
-          <FaEnvelope className="f2 col" />
-</a>
+          <a
+            href="mailto:mdfahadrahman1969@gmail.com"
+            className="link dim text-white"
+          >
+            <FaEnvelope className="f2 col" />
+          </a>
         </div>
       </div>
-      
+
       <div className="flex flex-col justify-center items-center mt-8 absolute bottom-10">
         <Link
           activeClass="active"
-          to="about" 
+          to="about"
           spy={true}
           smooth={true}
           offset={-70}
