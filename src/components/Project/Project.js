@@ -221,7 +221,7 @@ const Project = () => {
                   className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
                   onClick={() =>
                     (window.location.href =
-                      "https://zomato-clone-portal.netlify.app")
+                      "https://zomato-clone-portal.vercel.app")
                   }
                 >
                   Check it out
@@ -269,7 +269,8 @@ const Project = () => {
                 <button
                   className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
                   onClick={() =>
-                    (window.location.href = "https://humaridukan.netlify.app/")
+                    (window.location.href =
+                      "https://e-commerce-website-portal.vercel.app")
                   }
                 >
                   Check it out
