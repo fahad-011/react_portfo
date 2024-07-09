@@ -43,13 +43,13 @@ const Home = () => {
             <FaLinkedin className="f2 col" />
           </a>
           <a
-            href="https://github.com/roc102"
+            href="https://github.com/fahad-011"
             className="link dim text-white mr-3"
           >
             <FaGithub className="f2 col" />
           </a>
           <a
-            href="https://drive.google.com/file/d/1Yd3YKEnjtHFuC-AtG8vuJ9rB5tuilT06/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Bz5uEPL051YN32AS1LYNkm_2IBEOoTe7/view?usp=sharing"
             className="link dim text-white mr-3"
           >
             <FaFilePdf className="f2 col" />
