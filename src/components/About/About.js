@@ -41,7 +41,7 @@ const About = () => {
                 className="leading-6 text-base pb-[1rem]"
                 style={{ color: "#333333" }}
               >
-                Hello! I'm Mohammad Fahad, a Full Stack Developer with a keen
+                Hello! I'm Fahad Rahman, a Full Stack Developer with a keen
                 interest in exploring new challenges and growth opportunities.
               </p>
               <p

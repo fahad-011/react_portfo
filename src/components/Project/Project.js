@@ -220,8 +220,7 @@ const Project = () => {
                 <button
                   className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
                   onClick={() =>
-                    (window.location.href =
-                      "https://zomato-clone-portal.vercel.app")
+                    (window.location.href = "https://zomatoreplical.vercel.app")
                   }
                 >
                   Check it out
@@ -345,7 +344,7 @@ const Project = () => {
                   className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded "
                   onClick={() =>
                     (window.location.href =
-                      "https://roc102.github.io/smart-brain")
+                      "https://fahad-011.github.io/smart-brain")
                   }
                 >
                   Check it out
@@ -463,7 +462,7 @@ const Project = () => {
                   className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
                   onClick={() =>
                     (window.location.href =
-                      "https://roc102.github.io/Robofriend/")
+                      "https://fahad-011.github.io/Robofriend/")
                   }
                 >
                   Check it out
