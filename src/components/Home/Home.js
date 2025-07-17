@@ -49,7 +49,7 @@ const Home = () => {
             <FaGithub className="f2 col" />
           </a>
           <a
-            href="https://drive.google.com/file/d/16htuURMY4s2k4vnOYa2XQQHQnlwYKHzS/view?usp=sharing"
+            href="https://drive.google.com/file/d/1iZ3nIhxxbuSb_e3ZJxHnfGh-v-n8nw1p/view?usp=sharing"
             className="link dim text-white mr-3"
           >
             <FaFilePdf className="f2 col" />
